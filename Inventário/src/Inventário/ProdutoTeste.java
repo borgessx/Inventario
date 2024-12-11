@@ -57,4 +57,8 @@ public class ProdutoTeste {
 				System.out.println(produto);
 			}
 		}
+		static void displayInventário(produto[]produtos) {
+			for(produto produto:produtos)
+				System.out.println(produto);
+		}
 	}
